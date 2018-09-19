@@ -1,1 +1,1 @@
-# CyberArk
+# Retrieving passwords via AIM
