@@ -12,7 +12,7 @@ def help():
   global Safe
   global Username
   parser = argparse.ArgumentParser(
-        description="\nEXAMPLE: ./%(prog)s -a WSAUTOCOP -s Weblogic -u weblogic")
+        description="\nEXAMPLE: ./%(prog)s -a APPACCOUNT -s SAFE -u ACCOUNT")
   parser.add_argument("-a", "--appid", help="Specify the Application Account", type=str)
   parser.add_argument("-s", "--safe", help="Specify the Safe", type=str)
   parser.add_argument("-u", "--username", help="Specify the username for retrieving the password associated", type=str)
