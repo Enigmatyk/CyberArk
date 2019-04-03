@@ -5,7 +5,7 @@ from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 import sys
 
-url = "https://sam-development/aimwebservice/api/Accounts"
+url = "https://SET_URL/aimwebservice/api/Accounts"
 
 def help():
   global AppID
