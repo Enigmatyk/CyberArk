@@ -1,9 +1,10 @@
 #!/usr/bin/python
 import requests
 import argparse
+import sys
+# Remove this two lines in PRODUCTION
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-import sys
 
 url = "https://SET_URL/aimwebservice/api/Accounts"
 
